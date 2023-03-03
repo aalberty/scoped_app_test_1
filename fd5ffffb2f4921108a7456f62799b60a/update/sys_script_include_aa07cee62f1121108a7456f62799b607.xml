@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_324004_testing_a.testingSI</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>testingSI</name>
+        <script><![CDATA[var testingSI = Class.create();
+testingSI.prototype = {
+    initialize: function() {
+    },
+
+    type: 'testingSI'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>talberty</sys_created_by>
+        <sys_created_on>2023-03-03 19:38:51</sys_created_on>
+        <sys_id>aa07cee62f1121108a7456f62799b607</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>testingSI</sys_name>
+        <sys_package display_value="testing app" source="x_324004_testing_a">fd5ffffb2f4921108a7456f62799b60a</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="testing app">fd5ffffb2f4921108a7456f62799b60a</sys_scope>
+        <sys_update_name>sys_script_include_aa07cee62f1121108a7456f62799b607</sys_update_name>
+        <sys_updated_by>talberty</sys_updated_by>
+        <sys_updated_on>2023-03-03 19:38:51</sys_updated_on>
+    </sys_script_include>
+</record_update>
